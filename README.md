@@ -7,3 +7,7 @@ docker-compose -f docker-compose.yml up -d
 ```
 
 ## Checking Kafka Shell
+Then execute shell in container **kafka** using following script
+```
+docker exec -it kafka /bin/sh
+```
