@@ -28,5 +28,17 @@ topic_list.append(new_topic)
 admin_client.create_topics(new_topics=topic_list)
 ```
 
-## Install Python
-kafka-python==2.0.2
+## Install Kafka-Python from pip
+```
+sudo pip3 install kafka-python==2.0.2
+```
+
+## Run message consumer then producer
+First we run python code for consumer which will listen any producer message from spesific topic
+```
+python3 consumer.py
+```
+then produce the message 
+```
+python3 producer.py
+```
