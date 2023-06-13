@@ -42,3 +42,6 @@ then produce the message
 ```
 python3 producer.py
 ```
+
+## References
+https://www.youtube.com/watch?v=LHNtL4zDBuk&ab_channel=BetterDataScience
